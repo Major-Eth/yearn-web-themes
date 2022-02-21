@@ -1,6 +1,6 @@
 # yearn-web-themes
 
-[![NPM](https://img.shields.io/npm/v/yearn-web-themes.svg)](https://www.npmjs.com/package/yearn-web-themes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Theming system for Yearn Finance and associated projects.  
 A theme is a set of colors (could expand). A theme object looks like this
