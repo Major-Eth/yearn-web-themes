@@ -1,8 +1,30 @@
 # yearn-web-themes
 
-> base themes for Yearn's projects
-
 [![NPM](https://img.shields.io/npm/v/yearn-web-themes.svg)](https://www.npmjs.com/package/yearn-web-themes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+Theming system for Yearn Finance and associated projects.  
+A theme is a set of colors (could expand). A theme object looks like this
+```js
+{
+	name: 'light',
+	colors: {
+		'background':		'#F4F7FB',
+		'background-variant':	'#E0EAFF',
+		'surface':		'#FFFFFF',
+		'surface-variant':	'#F9FBFD',
+		'primary':		'#0657F9',
+		'primary-variant':	'#004ADF',
+		'secondary':		'#E0EAFF',
+		'titles':		'#001746',
+		'titles-variant':	'#0657F9',
+		'texts':		'#7F8DA9',
+		'icons':		'#CED5E3',
+		'icons-variant':	'#475570'
+	}
+}
+```
+
+Support themes are `light`, `dark` and `blue`.
 
 ## Install
 
