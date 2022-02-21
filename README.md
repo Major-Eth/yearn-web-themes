@@ -49,7 +49,3 @@ class Example extends Component {
   }
 }
 ```
-
-## License
-
-MIT © [Major](https://github.com/Major)
