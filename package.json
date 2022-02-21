@@ -1,10 +1,10 @@
 {
-  "name": "yearn-web-themes",
+  "name": "@yfi/yearn-web-themes",
   "version": "1.0.0",
   "description": "base ythemes",
   "author": "Major",
   "license": "MIT",
-  "repository": "major-eth/yearn-web-themes",
+  "repository": "yearn/yearn-web-themes",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
