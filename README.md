@@ -29,7 +29,7 @@ Support themes are `light`, `dark` and `blue`.
 ## Install
 
 ```bash
-npm install --save yearn-web-themes
+yarn add @yearn/yearn-web-themes@1.0.0
 ```
 
 ## Usage
