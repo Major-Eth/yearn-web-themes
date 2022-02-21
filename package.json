@@ -4,7 +4,10 @@
   "description": "base ythemes",
   "author": "Major",
   "license": "MIT",
-  "repository": "yearn/yearn-web-themes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yearn/yearn-web-themes.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
