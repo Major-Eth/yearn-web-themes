@@ -8,18 +8,37 @@ A theme is a set of colors (could expand). A theme object looks like this
 {
 	name: 'light',
 	colors: {
-		'background':		'#F4F7FB',
-		'backgroundVariant':	'#E0EAFF',
-		'surface':		'#FFFFFF',
-		'surfaceVariant':	'#F9FBFD',
-		'primary':		'#0657F9',
-		'primaryVariant':	'#004ADF',
-		'secondary':		'#E0EAFF',
-		'titles':		'#001746',
-		'titlesVariant':	'#0657F9',
-		'texts':		'#7F8DA9',
-		'icons':		'#CED5E3',
-		'iconsVariant':	'#475570'
+		background: '#F4F7FB',
+		backgroundVariant: '#E0EAFF',
+		surface: '#FFFFFF',
+		surfaceVariant: '#F9FBFD',
+		primary: '#0657F9',
+		primaryVariant: '#004ADF',
+		secondary: '#E0EAFF',
+		titles: '#001746',
+		titlesVariant: '#0657F9',
+		texts: '#7F8DA9',
+		disabled: '#CED5E3',
+		icons: {
+			primary: '#CED5E3',
+			variant: '#475570'
+		},
+		button: {
+			filled: {
+				primary: '#0657F9',
+				variant: '#004ADF',
+				text: '#FFFFFF',
+			},
+			outlined: {
+				primary: '#FFFFFF',
+				variant: '#E0EAFF',
+				text: '#0657F9',
+			},
+			disabled: {
+				primary: '#F4F7FB',
+				text: '#CED5E3',
+			}
+		}
 	}
 }
 ```
