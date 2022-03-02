@@ -27,17 +27,21 @@ A theme is a set of colors (could expand). A theme object looks like this
 Support themes are `light`, `dark` and `blue`.
 
 ## Install
-
-This package is handled by Github's system. In order to be able to install it, first add the following to your `.npmrc` file:
+This package is handled by Github's system. In order to be able to install it, first add the following to your `.npmrc` or `.yarnrc` file:
 ```
+# For .npmrc
 @yearn:registry=https://npm.pkg.github.com
+```
+
+```
+# For .yarnrc
+registry=https://npm.pkg.github.com/yearn
 ```
 
 Then you can install is as usual:
 ```bash
 yarn add @yearn/yearn-web-assets
 ```
-
 
 ## Usage
 

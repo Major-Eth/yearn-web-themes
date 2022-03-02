@@ -1,9 +1,8 @@
 {
-  "name": "@yfi/yearn-web-themes",
+  "name": "@yearn/yearn-web-themes",
   "version": "1.0.0",
+	"author": "Yearn",
   "description": "base ythemes",
-  "author": "Major",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yearn/yearn-web-themes.git"
@@ -52,5 +51,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
