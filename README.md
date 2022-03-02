@@ -1,6 +1,6 @@
 # yearn-web-themes
 
-[![NPM](https://img.shields.io/npm/v/yearn-web-themes.svg)](https://www.npmjs.com/package/yearn-web-themes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Theming system for Yearn Finance and associated projects.  
 A theme is a set of colors (could expand). A theme object looks like this
@@ -28,9 +28,16 @@ Support themes are `light`, `dark` and `blue`.
 
 ## Install
 
-```bash
-npm install --save yearn-web-themes
+This package is handled by Github's system. In order to be able to install it, first add the following to your `.npmrc` file:
 ```
+@yearn:registry=https://npm.pkg.github.com
+```
+
+Then you can install is as usual:
+```bash
+yarn add @yearn/yearn-web-assets
+```
+
 
 ## Usage
 
