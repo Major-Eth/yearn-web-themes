@@ -9,17 +9,17 @@ A theme is a set of colors (could expand). A theme object looks like this
 	name: 'light',
 	colors: {
 		'background':		'#F4F7FB',
-		'background-variant':	'#E0EAFF',
+		'backgroundVariant':	'#E0EAFF',
 		'surface':		'#FFFFFF',
-		'surface-variant':	'#F9FBFD',
+		'surfaceVariant':	'#F9FBFD',
 		'primary':		'#0657F9',
-		'primary-variant':	'#004ADF',
+		'primaryVariant':	'#004ADF',
 		'secondary':		'#E0EAFF',
 		'titles':		'#001746',
-		'titles-variant':	'#0657F9',
+		'titlesVariant':	'#0657F9',
 		'texts':		'#7F8DA9',
 		'icons':		'#CED5E3',
-		'icons-variant':	'#475570'
+		'iconsVariant':	'#475570'
 	}
 }
 ```

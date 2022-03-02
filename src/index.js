@@ -11,8 +11,27 @@ const light = {
 		titles: '#001746',
 		titlesVariant: '#0657F9',
 		texts: '#7F8DA9',
-		icons: '#CED5E3',
-		iconsVariant: '#475570'
+		disabled: '#CED5E3',
+		icons: {
+			primary: '#CED5E3',
+			variant: '#475570'
+		},
+		button: {
+			filled: {
+				primary: '#0657F9',
+				variant: '#004ADF',
+				text: '#FFFFFF',
+			},
+			outlined: {
+				primary: '#FFFFFF',
+				variant: '#E0EAFF',
+				text: '#0657F9',
+			},
+			disabled: {
+				primary: '#F4F7FB',
+				text: '#CED5E3',
+			}
+		}
 	}
 }
 
@@ -29,8 +48,27 @@ const dark = {
 		titles: '#FFFFFF',
 		titlesVariant: '#FFFFFF',
 		texts: '#A8A8A8',
-		icons: '#A8A8A8',
-		iconsVariant: '#FFFFFF0'
+		disabled: '#A8A8A8',
+		icons: {
+			primary: '#A8A8A8',
+			variant: '#FFFFFF'
+		},
+		button: {
+			filled: {
+				primary: '#0657F9',
+				variant: '#004ADF',
+				text: '#FFFFFF',
+			},
+			outlined: {
+				primary: '#FFFFFF',
+				variant: '#272727',
+				text: '#FFFFFF',
+			},
+			disabled: {
+				primary: '#141414',
+				text: '#A8A8A8',
+			}
+		}
 	}
 }
 
@@ -47,8 +85,27 @@ const blue = {
 		titles: '#FFFFFF',
 		titlesVariant: '#FFFFFF',
 		texts: '#7F8DA9',
-		icons: '#7F8DA9',
-		iconsVariant: '#FFFFFF'
+		disabled: '#CED5E3',
+		icons: {
+			primary: '#7F8DA9',
+			variant: '#FFFFFF'
+		},
+		button: {
+			filled: {
+				primary: '#0657F9',
+				variant: '#004ADF',
+				text: '#FFFFFF',
+			},
+			outlined: {
+				primary: '#0657F9',
+				variant: '#012A7C',
+				text: '#0657F9',
+			},
+			disabled: {
+				primary: '#012A7C',
+				text: '#7F8DA9',
+			}
+		}
 	}
 }
 
